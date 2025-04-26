@@ -1,0 +1,1 @@
+persistenc.xml 대신 JAVA config 파일
