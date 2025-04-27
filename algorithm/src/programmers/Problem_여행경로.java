@@ -24,69 +24,44 @@ public class Problem_여행경로 {
     }
 
     static class Solution {
-        List<String[]> answers = new ArrayList<>();
-        Set<String> countries = new HashSet<>();
+        List<String> route = new ArrayList<>();
+        boolean[] visited;
+        String[] answer;
+        boolean found = false;
 
         public String[] solution(String[][] tickets) {
-
-            for (String[] ticket : tickets) {
-                for (String country : ticket) {
-                    countries.add(country);
+            Arrays.sort(tickets, (a, b) -> {
+                if (a[0].equals(b[0])) {
+                    return a[1].compareTo(b[1]);
                 }
-            }
-
-            for (int i = 0; i < tickets.length; i++) {
-                if (!tickets[i][0].equals("ICN")) continue; // 출발지가 ICN이 아니면 스킵
-                boolean[] visit = new boolean[tickets.length];
-                visit[i] = true;
-                List<Integer> order = new ArrayList<>();
-                order.add(i);
-                dfs(i, visit, tickets, order);
-            }
-
-            answers.sort((a,b)->{
-                for(int i=0;i<a.length;i++){
-                    int result =a[i].compareTo(b[i]);
-                    if(result!=0) return result;
-                }
-
-                return 0;
+                return a[0].compareTo(b[0]);
             });
-            return answers.get(0);
+
+            visited = new boolean[tickets.length];
+            route.add("ICN");
+            dfs("ICN", tickets, 0);
+            return answer;
         }
 
-        private void dfs(int current, boolean[] visit, String[][] tickets, List<Integer> order) {
-            if (order.size() == tickets.length) {
-                List<String> list = new ArrayList<>();
-                for (int i=0;i<tickets.length;i++) {
-                    Integer poll = order.get(i);
-                    String departure = tickets[poll][0];
-                    String arrival = tickets[poll][1];
-                    if(i==0){
-                        list.add(departure);
-                    }
-                    list.add(arrival);
-                }
+        private void dfs(String current, String[][] tickets, int depth) {
+            if (found) return;
 
-                String[] answer = new String[tickets.length+1];
-                int cnt = 0;
-                for (String country : list) {
-                    answer[cnt++] = country;
-                }
-                answers.add(answer);
-
+            if (depth == tickets.length) {
+                answer = route.toArray(new String[0]);
+                found = true;
                 return;
             }
 
-
             for (int i = 0; i < tickets.length; i++) {
-                if (visit[i] || !tickets[i][0].equals(tickets[current][1])) continue;
-                visit[i] = true;
-                order.add(i);
-                dfs(i, visit, tickets, order);
-                order.remove(order.size()-1);
+                if (!visited[i] && tickets[i][0].equals(current)) {
+                    visited[i] = true;
+                    route.add(tickets[i][1]);
+                    dfs(tickets[i][1], tickets, depth + 1);
+                    visited[i] = false;
+                    route.remove(route.size() - 1);
+                }
             }
-
         }
     }
+
 }
