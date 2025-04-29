@@ -8,9 +8,9 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Entity
+@Table(name = "student")
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "student")
 @Builder
 public class Student {
     @Id
@@ -19,4 +19,6 @@ public class Student {
     private String name;
     private String email;
     private String phone;
+
+
 }

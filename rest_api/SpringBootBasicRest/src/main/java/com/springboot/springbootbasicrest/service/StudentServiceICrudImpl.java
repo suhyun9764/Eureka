@@ -95,6 +95,7 @@ public class StudentServiceICrudImpl implements StudentServiceCrud {
         // findById 처리 x 버전
         StudentResultDto studentResultDto = new StudentResultDto();
         Student student = Student.builder()
+                .id(studentDto.getId())
                 .name(studentDto.getName())
                 .phone(studentDto.getPhone())
                 .email(studentDto.getEmail())
