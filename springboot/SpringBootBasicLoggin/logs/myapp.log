@@ -1,0 +1,266 @@
+2025-05-01 13:49:19 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 13:49:19 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 13:49:19 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 13:49:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 13:49:20 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2025-05-01 13:49:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 13:49:20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 85 ms
+2025-05-01 13:49:20 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 13:49:20 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 13:49:20 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 13:49:20 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 13:49:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 13:49:20 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.222 seconds (process running for 496.368)
+2025-05-01 13:49:20 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 13:49:59 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-01 13:49:59 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-01 13:49:59 [http-nio-8080-exec-2] DEBUG c.s.s.controller.StudentController - listStudent() debug
+2025-05-01 13:49:59 [http-nio-8080-exec-2] INFO  c.s.s.controller.StudentController - listStudent() info
+2025-05-01 13:49:59 [http-nio-8080-exec-2] WARN  c.s.s.controller.StudentController - listStudent() warn
+2025-05-01 14:11:06 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-05-01 14:11:06 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:11:06 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:11:06 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:11:06 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:11:06 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:11:06 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:11:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:11:06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2025-05-01 14:11:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:11:06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 87 ms
+2025-05-01 14:11:06 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:11:07 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:11:07 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:11:07 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:11:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:11:07 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.212 seconds (process running for 1803.316)
+2025-05-01 14:11:07 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:12:04 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:12:04 [Thread-11] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:12:04 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:12:04 [Thread-11] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:12:05 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:12:05 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:12:05 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:12:05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:12:05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2025-05-01 14:12:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:12:05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 82 ms
+2025-05-01 14:12:05 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:12:05 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:12:05 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:12:05 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:12:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:12:05 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.202 seconds (process running for 1861.481)
+2025-05-01 14:12:05 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:12:42 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:12:42 [Thread-15] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:12:42 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:12:42 [Thread-15] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:12:43 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:12:43 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:12:43 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:12:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:12:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-05-01 14:12:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:12:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 78 ms
+2025-05-01 14:12:43 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:12:43 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:12:43 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:12:43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:12:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:12:43 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.19 seconds (process running for 1899.434)
+2025-05-01 14:12:43 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:16:40 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:16:40 [Thread-19] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:16:40 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:16:40 [Thread-19] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:16:40 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:16:40 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:16:40 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:16:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:16:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-05-01 14:16:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:16:40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 141 ms
+2025-05-01 14:16:40 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:16:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:16:40 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:16:41 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:16:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:16:41 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.333 seconds (process running for 2137.257)
+2025-05-01 14:16:41 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:17:44 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:17:44 [Thread-23] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:17:44 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:17:44 [Thread-23] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:17:45 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:17:45 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:17:45 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:17:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:17:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-05-01 14:17:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:17:45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 77 ms
+2025-05-01 14:17:45 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:17:45 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:17:45 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:17:45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:17:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:17:45 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.252 seconds (process running for 2201.53)
+2025-05-01 14:17:45 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:19:38 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:19:38 [Thread-27] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:19:38 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:19:38 [Thread-27] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:19:38 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:19:38 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:19:38 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:19:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:19:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-05-01 14:19:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:19:38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 82 ms
+2025-05-01 14:19:38 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:19:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:19:38 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:19:39 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:19:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:19:39 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.273 seconds (process running for 2315.245)
+2025-05-01 14:19:39 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:20:59 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:20:59 [Thread-31] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:20:59 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:20:59 [Thread-31] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:20:59 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:20:59 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:20:59 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:20:59 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:20:59 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-05-01 14:20:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:20:59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 77 ms
+2025-05-01 14:20:59 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:20:59 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:20:59 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:20:59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:20:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:20:59 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.232 seconds (process running for 2395.609)
+2025-05-01 14:20:59 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:22:39 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:22:39 [Thread-35] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:22:39 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:22:39 [Thread-35] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:22:39 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:22:39 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:22:39 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:22:39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:22:39 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-05-01 14:22:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:22:39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 80 ms
+2025-05-01 14:22:39 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:22:39 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:22:39 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:22:39 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:22:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:22:39 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.241 seconds (process running for 2496.168)
+2025-05-01 14:22:39 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:23:36 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-01 14:23:36 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-01 14:23:36 [http-nio-8080-exec-2] DEBUG c.s.s.controller.StudentController - listStudent() debug
+2025-05-01 14:23:36 [http-nio-8080-exec-2] INFO  c.s.s.controller.StudentController - listStudent() info
+2025-05-01 14:23:36 [http-nio-8080-exec-2] WARN  c.s.s.controller.StudentController - listStudent() warn
+2025-05-01 14:24:13 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-05-01 14:24:13 [Thread-39] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:24:13 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:24:13 [Thread-39] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:24:13 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:24:13 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:24:13 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:24:13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:24:13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-05-01 14:24:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:24:13 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 72 ms
+2025-05-01 14:24:13 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:24:13 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:24:13 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:24:13 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:24:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:24:13 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.238 seconds (process running for 2589.653)
+2025-05-01 14:24:13 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:26:42 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:26:42 [Thread-43] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:26:42 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:26:42 [Thread-43] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:26:42 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:26:42 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:26:42 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:26:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:26:42 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-05-01 14:26:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:26:42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 83 ms
+2025-05-01 14:26:42 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:26:42 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:26:42 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:26:42 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:26:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:26:42 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.257 seconds (process running for 2738.75)
+2025-05-01 14:26:42 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:27:28 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (1 addition, 0 deletions, 2 modifications)
+2025-05-01 14:27:28 [Thread-47] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:27:28 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:27:28 [Thread-47] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:27:28 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:27:28 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:27:28 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-05-01 14:27:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:27:28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 94 ms
+2025-05-01 14:27:28 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:27:28 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:27:28 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:27:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:27:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:27:28 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.262 seconds (process running for 2784.852)
+2025-05-01 14:27:28 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:27:40 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-05-01 14:27:40 [Thread-51] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:27:40 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:27:40 [Thread-51] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:27:40 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:27:40 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:27:40 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:27:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:27:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2025-05-01 14:27:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:27:40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 89 ms
+2025-05-01 14:27:40 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:27:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:27:40 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:27:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:27:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:27:40 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.269 seconds (process running for 2796.659)
+2025-05-01 14:27:40 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:27:45 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-01 14:27:45 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-01 14:28:44 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-01 14:28:44 [Thread-55] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01 14:28:44 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-01 14:28:44 [Thread-55] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:28:44 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Starting SpringBootBasicLogginApplication using Java 17.0.13 with PID 78647 (/Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin/build/classes/java/main started by suhyun in /Users/suhyun/Desktop/eureka/LG_U+_Eureka/lecture/springboot/SpringBootBasicLoggin)
+2025-05-01 14:28:44 [restartedMain] DEBUG c.s.s.SpringBootBasicLogginApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-01 14:28:44 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:28:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-01 14:28:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-05-01 14:28:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-01 14:28:44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 89 ms
+2025-05-01 14:28:44 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-01 14:28:44 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-01 14:28:44 [restartedMain] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-01 14:28:44 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-01 14:28:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-01 14:28:44 [restartedMain] INFO  c.s.s.SpringBootBasicLogginApplication - Started SpringBootBasicLogginApplication in 0.264 seconds (process running for 2860.926)
+2025-05-01 14:28:44 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-01 14:28:46 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-01 14:28:46 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-01 14:29:23 [http-nio-8080-exec-2] DEBUG c.s.s.controller.StudentController - listStudent() debug
+2025-05-01 14:29:23 [http-nio-8080-exec-2] INFO  c.s.s.controller.StudentController - listStudent() info
+2025-05-01 14:29:23 [http-nio-8080-exec-2] WARN  c.s.s.controller.StudentController - listStudent() warn
+2025-05-01 14:29:23 [http-nio-8080-exec-2] INFO  c.s.s.LoggingAspect - user[manager@naver.com]가 method : findAll 을 2025-05-01T14:29:23.098256호출했습니다
