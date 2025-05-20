@@ -1,5 +1,9 @@
 package programmers;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.concurrent.ConcurrentHashMap;
+
 public class Problem_도둑질 {
     public static void main(String[] args) {
         Solution solution = new Solution();
@@ -10,7 +14,6 @@ public class Problem_도둑질 {
     static class Solution {
         public int solution(int[] money) {
             int n = money.length;
-
             int[] dp1 = new int[n];
             dp1[0] = money[0];
             dp1[1] = Math.max(dp1[0],money[1]);
